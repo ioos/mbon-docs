@@ -93,7 +93,7 @@ archiving.
 * Containers: TAR, GZIP, ZIP
 * Databases: CSV, XML
 * Tabular data: CSV
-* Geospatial vector data: SHP, GeoJSON, KML, DBF, NetCDF
+* Geospatial vector data: Shapefile (SHP), GeoJSON, KML, DBF, NetCDF
 * Geospatial raster data: GeoTIFF/TIFF, NetCDF, HDF-EOS
 * Moving images: MOV, MPEG, AVI, MXF
 * Sounds: WAVE, AIFF, MP3, MXF
@@ -136,7 +136,7 @@ the one most likely to be readable by tools. Other text encodings, such as UTF-8
 may be necessary for some non-English applications. Avoid obscure text encodings. Use ASCII if
 possible, with UTF-8 or UTF-16 as secondary options.
 
-*Relational database management systems (RDBMS)* (such as Microsoft Access) create file formats that
+*Relational database management systems (RDBMS)* (such as .ACCDB, .MDB, .GDB) create file formats that
 need specialized software to open and view the contained information. Creating CSV files or ASCII
 text versions and PDF/A’s of the data provider’s original data ensures that the information
 contained within the file is openly accessible to data customers. Tabular data stored within
