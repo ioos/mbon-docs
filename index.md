@@ -6,7 +6,7 @@ This portal provides access to and interactive visualizations of data associated
 
 The data have been generated within the MBON regions of the Chukchi Sea (Alaska), Santa Barbara Channel (California), and the National Marine Sanctuaries in Monterey Bay (California) and the Florida Keys (Florida). Data have been collected by associated scientists or provided by multiple other independent programs, such as the Long-Term Ecological Research (LTER) programs, universities, and other fisheries or marine wildlife institutions.
 
-This document describes the [MBON portal](http://mbon.ioos.us/) and its underlying functionality. Information is included about:
+This document describes the [MBON portal](https://mbon.ioos.us/) and its underlying functionality. Information is included about:
 * using the portal;
 * submitting new data to portal; and
 * formatting and documentation of data.
@@ -34,11 +34,11 @@ The Map View is highly customizable (“Settings” and “Legend”), enabling 
 ### Help Documentation Contents
 
 Below are links to the help documentation for the MBON Data Portal.
-* [Overview](http://help.axds.co/portals/#introduction)
-* [Data Catalog](http://help.axds.co/portals/DataCatalog.html#data-catalog)
-* [Data Map](http://help.axds.co/portals/DataMap.html#data-map)
-* [Download Data](http://help.axds.co/portals/DataCatalog.html#download-visualized-data)
-* [Creating Custom Data Views](http://help.axds.co/portals/DataMap.html#data-views)
+* [Overview](https://help.axds.co/portals/#introduction)
+* [Data Catalog](https://help.axds.co/portals/DataCatalog.html#data-catalog)
+* [Data Map](https://help.axds.co/portals/DataMap.html#data-map)
+* [Download Data](https://help.axds.co/portals/DataCatalog.html#download-visualized-data)
+* [Creating Custom Data Views](https://help.axds.co/portals/DataMap.html#data-views)
 
 ## Data and File Formatting
 
@@ -120,7 +120,7 @@ Metadata describes information about a dataset to ensure that it can be understo
 
 It is recommended to use the ISO 19115 XML for metadata standards following the ISO 19115 guidance from [NGDC](https://www.ngdc.noaa.gov/metaview/page?xml=NOAA/NESDIS/NGDC/STP/Geomag/iso/xml/G10161.xml&view=xml2text/xml-to-text-ISO) and [NCDDC](https://www.ncddc.noaa.gov/metadata-standards/). See also the [Category:ISO 19115 in the NOAA Environmental Data Management Wiki](https://geo-ide.noaa.gov/wiki/index.php?title=Category%3AISO_19115). If data are being served by ERDDAP, then ERDDAP will automatically generate the ISO and FGDC XML documents. Metadata in the [FGDC-authored Content Standard for Digital Geospatial Metadata (CSDGM)](https://www.fgdc.gov/metadata/csdgm-standard) format may also be submitted following the [Content Standard for Biological Data Profile](https://www.fgdc.gov/standards/projects/metadata/biometadata/biodatap.pdf).
 
-If using the [Research Workspace](https://researchworkspace.com/intro/) to submit data, an integrated metadata editor is included to generate metadata in the FGDC-endorsed ISO 19110 and 19115-2 standards for geospatial metadata. Refer to the [Metadata Best Practices](http://www.axiomdatascience.com/best-practices/MetadataBestPractices.html#metadata-best-practices) section for help creating scientific metadata using the Research Workspace metadata editor. This document provides field-by-field guidance on how to write high-quality metadata.
+If using the [Research Workspace](https://researchworkspace.com/intro/) to submit data, an integrated metadata editor is included to generate metadata in the FGDC-endorsed ISO 19110 and 19115-2 standards for geospatial metadata. Refer to the [Metadata Best Practices](https://www.axiomdatascience.com/best-practices/MetadataBestPractices.html#metadata-best-practices) section for help creating scientific metadata using the Research Workspace metadata editor. This document provides field-by-field guidance on how to write high-quality metadata.
 
 ### Additional Data Documentation
 
@@ -144,13 +144,13 @@ Project investigators are responsible for making sure data become accessible thr
 #### Contributing Data via the Research Workspace
 
 The general process for data submission is outlined below:
-1. Data are organized in the MBON Research Workspace (https://researchworkspace.com) and accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2). For assistance using the Research Workspace and its metadata editor visit: https://workspace.aoos.org/help/
+1. Data are organized in the MBON Research Workspace (<https://researchworkspace.com>) and accompanied by robust, descriptive metadata using the integrated ISO-compliant metadata editor (ISO-19115-2). For assistance using the Research Workspace and its metadata editor visit: <https://workspace.aoos.org/help/>
 2. Once the data have been loaded and/or its embargo period ends, the researcher selects the ['Publish'](https://workspace.aoos.org/help/PublishingData.html#publishing-data) option for their project in the Research Workspace.
 3. The entire contents of that folder and any subfolder therein will then be displayed in its native file format within the Catalog of the MBON Portal, where public users can view and download the data and associated metadata.
 
 #### Contributing Data via ERDDAP or OBIS
 
-Data can be contributed via ERDDAP or OBIS to the MBON Data Portal, though (at the time of writing) this pathway requires some manual effort by Axiom Data Science to synchronize these services. Researchers should follow the recommended guidelines for each of these services: [ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html) and [OBIS](http://mmisw.org/ont/ioos/marine_biogeography). From these services, Axiom Data Science can access and download data for display through the MBON Data Portal. Custom Java, Scala, and Python scripts are used to convert data formats suitable for internal and external interoperability services.
+Data can be contributed via ERDDAP or OBIS to the MBON Data Portal, though (at the time of writing) this pathway requires some manual effort by Axiom Data Science to synchronize these services. Researchers should follow the recommended guidelines for each of these services: [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html) and [OBIS](https://mmisw.org/ont/ioos/marine_biogeography). From these services, Axiom Data Science can access and download data for display through the MBON Data Portal. Custom Java, Scala, and Python scripts are used to convert data formats suitable for internal and external interoperability services.
 
 ### Adding to the Map View
 
@@ -158,7 +158,7 @@ All data submitted to the MBON Data Portal, with the exception of real-time obse
 
 Graphic displays in the Map View include a mapping service, customized interactive visualizations, and time-series plots of the unit values wherein each parameter is graphed independently. Back-end scripts handle the conversion of visualized data from CF standards to other, non-CF units that may be requested by the user.
 
-Summary statistics and biodiversity indice calculations generated within the interactive graphical displays may be requested by the user. Summary statistics may include minimum, maximum and mean values. Seasonal statistics, available on time series longer than 3 years, include mean, and 10th and 90th percentiles. Note: the number of points visually available to interactive users from the source data are limited when necessary using temporal binning, such as daily, weekly, monthly, seasonally and yearly. More information about these calculations is available in the [Portal Help Documentation](http://help.axds.co/portals/DataMap.html#id6) and below.
+Summary statistics and biodiversity indice calculations generated within the interactive graphical displays may be requested by the user. Summary statistics may include minimum, maximum and mean values. Seasonal statistics, available on time series longer than 3 years, include mean, and 10th and 90th percentiles. Note: the number of points visually available to interactive users from the source data are limited when necessary using temporal binning, such as daily, weekly, monthly, seasonally and yearly. More information about these calculations is available in the [Portal Help Documentation](https://help.axds.co/portals/DataMap.html#id6) and below.
 
 ## How Biodiversity Data Products are Created
 
