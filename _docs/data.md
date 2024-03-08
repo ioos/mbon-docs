@@ -1,7 +1,4 @@
 ---
-title: "Data Formatting"
-keywords: data
-tags: [biology, data]
 toc: true
 summary: This is Marine Biodiversity Observation Network (MBON) data recommendations.
 ---
