@@ -57,39 +57,6 @@ entries:
     - title: "Loading into MBON Portal"
       url: /mbon-data-flow.html#loading-into-mbon-portal
       output: web
-  - title: "Data and File Formatting"
-    output: web
-    folderitems:
-    - title: "Overview"
-      url: /data.html
-      output: web
-    - title: "Tabular Data"
-      url: /data.html#tabular-data
-      output: web
-    - title: "Data Headers"
-      url: /data.html#data-headers
-      output: web
-    - title: "Data Values"
-      url: /data.html#data-values
-      output: web
-    - title: "Specific Formatting Recommendations for Biological Data"
-      url: /data.html#specific-formatting-recommendations-for-biological-data
-      output: web
-    - title: "Additional Data Documentation"
-      url: /data.html#additional-data-documentation
-      output: web
-  - title: "Metadata and Documentation"
-    output: web
-    folderitems:
-    - title: "Overview"
-      url: /metadata.html
-      output: web
-    - title: "Metadata"
-      url: /metadata.html#metadata
-      output: web
-    - title: "Additional Data Documentation"
-      url: /metadata.html#additional-data-documentation
-      output: web
   - title: "How to guide for MBON metadata"
     output: web
     folderitems:
