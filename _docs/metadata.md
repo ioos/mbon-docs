@@ -1,7 +1,4 @@
 ---
-title: "Metadata Formatting"
-keywords: metadata
-tags: [biology, metadata]
 toc: true
 summary: This is Marine Biodiversity Observation Network (MBON) metadata recommendations.
 ---
