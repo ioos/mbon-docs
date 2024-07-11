@@ -83,7 +83,7 @@ _If including this section Title and Project Personnel are required_
 **Title:** <br/>
 **Identifier** <br/>
 **Description:** <br/>
-**Funding:** <br/>
+**Funding:** This work was supported by the U.S. Marine Biodiversity Observation Network (MBON) co-organized by NOAA, NASA, BOEM, and ONR through the National Oceanographic Partnership Program (NOPP) [(add AGENCY grant # here if required/preferred)] <br/>
 **Study Area Description:** <br/>
 **Design Description:** <br/>
 **Project Personnel (First Name, Last Name, Role):** <br/>
