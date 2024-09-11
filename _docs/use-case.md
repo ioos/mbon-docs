@@ -16,9 +16,78 @@ Creator: Jeffrey Runge, Ph.D (School of Marine Sciences, University of Maine, Da
 Data processor: Dylan Pugh
 
 ### Data Flow Diagram
-{% include_relative images/WBTS_Zoo_MBON_Data_Flow_v1.5.svg %}
 
-<!--[diagram link](https://app.diagrams.net/#G1-4qY0ch3SXJhHYdOmcareoW9Xpb6Acak)-->
+```mermaid
+
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#007396',
+      'primaryTextColor': '#fff',
+      'primaryBorderColor': '#003087',
+      'lineColor': '#003087',
+      'secondaryColor': '#007396',
+      'tertiaryColor': '#CCD1D1'
+    },
+   'flowchart': { 'curve': 'basis' }
+  }
+}%%
+
+flowchart LR
+
+A["Marine Life data 
+& 
+metadata"] 
+
+B[("Raw Data 
+Access Point
+(eg. RA ERDDAP)")]
+
+C{{"Darwin Core
+Alignment"}}
+
+D[(NCEI)]
+
+E[("OBIS node")]
+
+G([OBIS])
+
+H([GBIF])
+
+I[("IOOS Data Catalog
+(data.ioos.us)")]
+
+FC(["Federal Catalogs/
+Products"])
+
+
+A --> B
+B -- Metadata --> I
+B --> C
+B --> D
+
+C --> E
+E --> G
+E --> H
+
+I --> FC
+
+G --> FC
+H --> FC
+
+
+D --> FC
+
+click B "http://www.neracoos.org/erddap/tabledap/WBTS_CFIN_2004_2017.html" "NERACOOS ERDDAP" _blank
+click C "https://github.com/ioos/bio_data_guide/issues/102" "Data standardization" _blank
+click D "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0250940" "NCEI" _blank
+click E "https://www1.usgs.gov/obis-usa/ipt/resource?r=gom_wbts_mesozooplankton" "OBIS-USA IPT" _blank
+click G "https://obis.org/dataset/5ef55cd8-05a1-4569-8e17-ceb224e40f59" "OBIS" _blank
+click H "https://www.gbif.org/dataset/29651377-23c8-4f45-b439-693a1a23cee1" "GBIF" _blank
+click I "htpps://data.ioos.us" "IOOS Catalog" _blank
+click FC "https://data.noaa.gov/onestop/collections/details/55309a04-8383-42ff-b2fe-ab3497431756" "OneStop" _blank
+```
 
 **Order of activities:**
 1. Serve data and metadata on RA ERDDAP
