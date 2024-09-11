@@ -44,8 +44,8 @@ B[("Raw Data
 Access Point
 (eg. RA ERDDAP)")]
 
-C{{"Darwin Core
-Alignment"}}
+C("Darwin Core
+Alignment")
 
 D[(NCEI)]
 
