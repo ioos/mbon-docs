@@ -4,6 +4,7 @@ keywords: data
 tags: [biology, data, example]
 toc: true
 summary: This is a collection of IOOS Marine Biodiversity Observation Network (MBON) data flow use cases.
+mermaid: true
 ---
 ## Gulf of Maine Wilkinson Basin Time Series Station Calanus Abundance Observations
 
@@ -18,7 +19,6 @@ Data processor: Dylan Pugh
 ### Data Flow Diagram
 
 ```mermaid
-
 %%{
   init: {
     'theme': 'base',
