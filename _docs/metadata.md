@@ -6,6 +6,8 @@ toc: true
 summary: This is Marine Biodiversity Observation Network (MBON) metadata recommendations.
 ---
 
+{% include warning.html content="As of 2024-09-13 the content on this website is currently being migrated to the Marine Life Data Network website <https://ioos.github.io/marine_life_data_network/>, please refer to the content there." %}
+
 # Metadata and Documentation
 
 Descriptive metadata and documentation are critical to maintaining data quality. Metadata is “data

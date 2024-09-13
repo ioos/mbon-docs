@@ -5,6 +5,9 @@ toc: true
 tags: [metadata, eml]
 summary: This is a how-to guide for collecting MBON metadata.
 ---
+
+{% include warning.html content="As of 2024-09-13 the content on this website is currently being migrated to the Marine Life Data Network website <https://ioos.github.io/marine_life_data_network/>, please refer to the content there." %}
+
 The information below can also be viewed as a Microsoft Word document [here](https://github.com/ioos/mbon-docs/raw/gh-pages/assets/EML.Metadata.Template.docx).
 
 # EML Metadata

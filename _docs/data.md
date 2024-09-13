@@ -6,6 +6,8 @@ toc: true
 summary: This is Marine Biodiversity Observation Network (MBON) data recommendations.
 ---
 
+{% include warning.html content="As of 2024-09-13 the content on this website is currently being migrated to the Marine Life Data Network website <https://ioos.github.io/marine_life_data_network/>, please refer to the content there." %}
+
 # Data and File Formatting
 
 In choosing a file format, data collectors should select a format that is usable, open, and that

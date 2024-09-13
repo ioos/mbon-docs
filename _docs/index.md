@@ -7,6 +7,8 @@ toc: false
 summary: This documentation describes the Marine Biodiversity Observation Network (MBON) data and file formatting recommendations.
 ---
 
+{% include warning.html content="As of 2024-09-13 the content on this website is currently being migrated to the Marine Life Data Network website <https://ioos.github.io/marine_life_data_network/>, please refer to the content there." %}
+
 ## Introduction
 
 [Marine Biodiversity Observation Network (MBON)](https://marinebon.org) observation data is focused on organisms from microbes to whales, including measures of biodiversity (e.g. presence, abundance), productivity, genomics, phenology, and other relevant ecological process measurements or indices. Also featured are habitat characterization and habitat diversity measures, including satellite data and added-value data derived from satellite observations, and neural network model results, such as biogeographical seascape classifications.
