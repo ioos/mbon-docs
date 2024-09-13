@@ -89,22 +89,36 @@ click I "htpps://data.ioos.us" "IOOS Catalog" _blank
 click FC "https://data.noaa.gov/onestop/collections/details/55309a04-8383-42ff-b2fe-ab3497431756" "OneStop" _blank
 ```
 
-**Order of activities:**
+#### Access Points
+
+Below is a table of the various places to discover these data and the process by which these data were standardized to Darwin Core.
+
+Source | URL
+-------|-----
+NERACOOS ERDDAP | <http://www.neracoos.org/erddap/tabledap/WBTS_CFIN_2004_2017.html>
+Data standardization process | <https://github.com/ioos/bio_data_guide/issues/102>
+NCEI | <https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:0250940>
+OBIS-USA IPT | <https://www1.usgs.gov/obis-usa/ipt/resource?r=gom_wbts_mesozooplankton>
+OBIS | <https://obis.org/dataset/5ef55cd8-05a1-4569-8e17-ceb224e40f59>
+GBIF | <https://www.gbif.org/dataset/29651377-23c8-4f45-b439-693a1a23cee1>
+IOOS Catalog | <https://data.ioos.us/dataset/gulf-of-maine-wbts-calanus-abundance-observations>
+NOAA OneStop | <https://data.noaa.gov/onestop/collections/details/55309a04-8383-42ff-b2fe-ab3497431756>
+
+### Order of activities:**
 1. Serve data and metadata on RA ERDDAP
 2. Align ERDDAP data to DarwinCore
 3. Share to OBIS-USA
 4. OBIS-USA shares via IPT to OBIS and GBIF
-5. 
 
-### Serving raw data via IOOS RA ERDDAP
+#### Serving raw data via IOOS RA ERDDAP
 Raw Gulf of Maine WBTS Calanus Abundance Observations available in ERDDAP: <http://www.neracoos.org/erddap/tabledap/WBTS_CFIN_2004_2017.html>
 
-### Aligning raw data to Darwin Core
+#### Aligning raw data to Darwin Core
 This dataset was processed by Dylan Pugh during the 2022 Marine BioData Mobilization Workshop in the notebook linked below:
 
 **MBTS MBON process:** <https://github.com/ioos/bio_data_guide/tree/main/datasets/WBTS_MBON>
 
-### Sending data to OBIS-USA
+#### Sending data to OBIS-USA
 Data were submitted to OBIS-USA by contributing the Darwin Core aligned files (and code) to the [ioos/bio-data-guide](https://github.com/ioos/bio_data_guide) repository. See this [GitHub Issue](https://github.com/ioos/bio_data_guide/issues/102) and subsequent Pull Requests [here](https://github.com/ioos/bio_data_guide/pull/101) and [here](https://github.com/ioos/bio_data_guide/pull/108) for more information on the conversion process.
 
 The processed files were uploaded to the repository and OBIS-USA downloaded them for loading in the OBIS-USA IPT.
@@ -115,7 +129,7 @@ Data were shared to OBIS at: <https://obis.org/dataset/5ef55cd8-05a1-4569-8e17-c
 
 Data were shared to GBIF at: <https://www.gbif.org/dataset/29651377-23c8-4f45-b439-693a1a23cee1>
 
-### Sending data to NCEI
+#### Sending data to NCEI
 1. Use [ERDDAP's `ArchiveADataset.sh`](https://coastwatch.pfeg.noaa.gov/erddap/download/setup.html#ArchiveADataset) for the dataset <http://www.neracoos.org/erddap/tabledap/WBTS_CFIN_2004_2017.html> to create an archival package for submission to NCEI as a one-off via [Send2NCEI](https://www.ncei.noaa.gov/archive/send2ncei/).
    1. To run as a one liner with a [Docker deployed ERDDAP](https://ioos.github.io/erddap-gold-standard/index.html), use this 
       ```
@@ -140,7 +154,7 @@ Data were shared to GBIF at: <https://www.gbif.org/dataset/29651377-23c8-4f45-b4
 9. Iterate with NCEI to answer any remaining questions they might have. 
 10. Once archived and published, NCEI will provide an accession number and url to the dataset landing page. 
 
-### Loading data into MBON Portal
+#### Loading data into MBON Portal
 *Describe the process for loading data into MBON portal, including lessons learned. Include link to MBON portal layer.*
 
 ### Overall lessons learned
