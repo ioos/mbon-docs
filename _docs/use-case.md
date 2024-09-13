@@ -56,14 +56,15 @@ G([OBIS])
 H([GBIF])
 
 I[("IOOS Data Catalog
-(data.ioos.us)")]
+(data.ioos.us)
+(metadata only)")]
 
 FC(["Federal Catalogs/
 Products"])
 
 
 A --> B
-B -- Metadata --> I
+B ---> I
 B --> C
 B --> D
 
