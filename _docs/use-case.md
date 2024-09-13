@@ -104,7 +104,7 @@ GBIF | <https://www.gbif.org/dataset/29651377-23c8-4f45-b439-693a1a23cee1>
 IOOS Catalog | <https://data.ioos.us/dataset/gulf-of-maine-wbts-calanus-abundance-observations>
 NOAA OneStop | <https://data.noaa.gov/onestop/collections/details/55309a04-8383-42ff-b2fe-ab3497431756>
 
-### Order of activities:**
+### Order of activities:
 1. Serve data and metadata on RA ERDDAP
 2. Align ERDDAP data to DarwinCore
 3. Share to OBIS-USA
