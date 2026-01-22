@@ -1,5 +1,6 @@
 ---
 title: "How-to guide for MBON metadata"
+redirect_to: https://ioos.github.io/marine_life_data_network/metadata-eml.html
 keywords: metadata
 toc: true
 tags: [metadata, eml]

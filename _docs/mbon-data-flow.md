@@ -1,5 +1,6 @@
 ---
 title: "Data Flow"
+redirect_to: https://ioos.github.io/marine_life_data_network/data-flow.html
 keywords: data
 tags: [biology, dataflow]
 toc: true
