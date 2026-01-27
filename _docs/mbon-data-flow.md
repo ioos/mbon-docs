@@ -1,12 +1,13 @@
 ---
-title: "Data Flow"
-redirect_to: https://ioos.github.io/marine_life_data_network/data-flow.html
+
 keywords: data
 tags: [biology, dataflow]
 toc: true
 summary: This is a summary of the Marine Biodiversity Observation Network (MBON) data flow for Tabular data and metadata.
 mermaid: true
 ---
+<meta http-equiv="refresh" content="0; url=https://ioos.github.io/marine_life_data_network/data-flow.html" />
+<link rel="canonical" href="https://ioos.github.io/marine_life_data_network/data-flow.html" />
 
 {% include warning.html content="As of 2024-09-13 the content on this website is currently being migrated to the Marine Life Data Network website <https://ioos.github.io/marine_life_data_network/>, please refer to the content there." %}
 
