@@ -33,3 +33,19 @@ Then build the site again.
 bundle exec jekyll serve --config _config.yml --watch --verbose --incremental
 ```
 And review at http://127.0.0.1:4000/mbon-docs/
+
+## Deploying/testing locally using Docker
+
+After cloning the repository, build the Docker image in the project directory:
+
+```
+docker build -t ioos-mbon-docs .
+```
+
+and run the docs site, adjusting the port if needed:
+
+```
+docker run --rm -p 4000:4000 mbon-docs
+```
+
+Review at http://localhost:4000/
